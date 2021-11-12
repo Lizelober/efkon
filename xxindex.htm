@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-1">
+    <title>Seasons JavaScript</title>
+    <meta name="Author" content="Juergen Giesen">
+    <!--FreeFind keywords words="seasons JavaScript Java Script equinox spring summer autumn winter" count="5"-->
+    <script language="JavaScript" src="seasons.js"></script>
+    <script language="JavaScript" src="table.js"></script>
+    <script language="JavaScript" src="data.js"></script>
+  </head>
+  <body onload="OK='OMED';currentYear();computeSeasons(
+document.form.Jahr.options[document.form.Jahr.selectedIndex].value);readData();"
+    style="background-color: rgb(255, 255, 255);">
+    <center>
+    
+      <form action="" method="post" name="form">
+        <center>
+          <table bgcolor="#268714" border="1" cellpadding="5"
+            cellspacing="0" width="450">
+            <tbody>
+              <tr>
+                <td>
+                  <center><font color="#ffffff" face="verdana, arial,
+                      helvetica, sans-serif" size="+1">Equinoxes</font>&nbsp; &nbsp;
+                    <p>
+                      <table bgcolor="#5ce07f" border="1"
+                        bordercolor="#c76040" cellpadding="0"
+                        cellspacing="0" width="400">
+                        <tbody>
+                          <tr>
+                            <td rowspan="4" width="125">
+                              <center><font face="verdana, arial,
+                                  helvetica, sans-serif">Year:</font>
+                                <p>
+                                  <select name="Jahr"
+                                    onchange="computeSeasons(
+                                    document.form.Jahr.options[document.form.Jahr.selectedIndex].value)">
+                                    <option value="1990">1990 </option>
+                                    <option value="1991">1991 </option>
+                                    <option value="1992">1992 </option>
+                                    <option value="1993">1993 </option>
+                                    <option value="1994">1994 </option>
+                                    <option value="1995">1995 </option>
+                                    <option value="1996">1996 </option>
+                                    <option value="1997">1997 </option>
+                                    <option value="1998">1998 </option>
+                                    <option value="1999">1999 </option>
+                                    <option value="2000">2000 </option>
+                                    <option value="2001">2001 </option>
+                                    <option value="2002">2002 </option>
+                                    <option value="2003">2003 </option>
+                                    <option value="2004">2004 </option>
+                                    <option value="2005">2005 </option>
+                                    <option value="2006">2006 </option>
+                                    <option value="2007">2007 </option>
+                                    <option value="2008">2008 </option>
+                                    <option value="2009">2009 </option>
+                                    <option value="2010">2010 </option>
+                                    <option value="2011">2011 </option>
+                                    <option value="2012">2012 </option>
+                                    <option value="2013">2013 </option>
+                                    <option value="2014">2014 </option>
+                                    <option value="2015">2015 </option>
+                                    <option value="2016">2016 </option>
+                                    <option value="2017">2017 </option>
+                                    <option value="2018">2018 </option>
+                                    <option value="2019">2019 </option>
+                                    <option value="2020">2020 </option>
+                                    <option value="2021">2021 </option>
+                                    <option value="2022">2022 </option>
+                                    <option value="2023">2023 </option>
+                                    <option value="2024">2024 </option>
+                                    <option value="2025">2025 </option>
+                                    <option value="2026">2026 </option>
+                                    <option value="2027">2027 </option>
+                                    <option value="2028">2028 </option>
+                                    <option value="2029">2029 </option>
+                                    <option value="2030">2030 </option>
+                                    <option value="2031">2031 </option>
+                                  </select>
+                                </p>
+                              </center>
+                            </td>
+                            <td width="125">
+                              <p align="right"><font face="verdana,
+                                  arial, helvetica, sans-serif">Autumn:
+                                </font> </p>
+                            </td>
+                            <td width="150">
+                              <p><font face="verdana, arial, helvetica,
+                                  sans-serif"><input name="autumnText"
+                                    value="" size="30" type="text"></font>
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </p>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </center>
+        
+      </form>
+    </center>
+  </body>
+</html>
